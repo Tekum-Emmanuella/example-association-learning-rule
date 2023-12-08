@@ -1,0 +1,21 @@
+def create_todo_list():
+    todo_list = []
+    
+    while True:
+        task = input("Enter a task for your todo list (or 'q' to quit): ")
+        
+        if task.lower() == 'q':
+            break
+        
+        todo_list.append(task)
+    
+    return todo_list
+
+
+print("Welcome to the Daily Todo List Creator!")
+
+todo_list = create_todo_list()
+
+print("\nYour Todo List for the day:")
+for task in todo_list:
+    print("- " + task)
