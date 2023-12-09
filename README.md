@@ -26,7 +26,7 @@ Next is a small competition.
     - You're done 😄!
 
 2. Competition Guidelines:
-   The winner is getting something from Stephane and Armand.
+   The winner is getting something from Stephane and Armand
 
    The competition is to implement the apriori algorithm. The first one to implement it and make a pull request will be
    the winner. The winner will be announced in the next class.
